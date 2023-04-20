@@ -1,0 +1,5 @@
+Evaluation single-user license for BARON.
+Licensed to Hassan Shapourian at Cisco Systems, Inc., hshapour@cisco.com.
+License upgrades for all versions of BARON dating from 18-Dec-2022 to 19-May-2023.
+License valid until 19-May-2023.
+9E96939E11FD754B
