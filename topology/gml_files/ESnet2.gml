@@ -50,14 +50,6 @@ graph [
     Latitude 40.86611157283187
   ]
   node [
-    id 6
-    label "BNL515B"
-    Country "United States"
-    Longitude -72.87094711326063
-    Internal 1
-    Latitude 40.86611157283187
-  ]
-  node [
     id 7
     label "BOIS"
     Country "United States"
@@ -90,14 +82,6 @@ graph [
     Latitude 41.8976419698447
   ]
   node [
-    id 11
-    label "CLEV"
-    Country "United States"
-    Longitude -81.65770802646875
-    Internal 1
-    Latitude 41.50506459642202
-  ]
-  node [
     id 12
     label "DENV"
     Country "United States"
@@ -125,10 +109,10 @@ graph [
     id 15
     label "EQXDA3"
     Country "United States"
-    Longitude -101.81772884912789
+    Longitude -96.797374
     Internal 1
-    Latitude 35.18834807910025
-  ]
+    Latitude 32.778346
+]
   node [
     id 16
     label "EQXDC4"
@@ -152,14 +136,6 @@ graph [
     Longitude -88.2549490313977
     Internal 1
     Latitude 41.84146599378437
-  ]
-  node [
-    id 19
-    label "FNALGCC"
-    Country "United States"
-    Longitude -88.24306718073785
-    Internal 1
-    Latitude 41.85117479413748
   ]
   node [
     id 20
@@ -266,14 +242,6 @@ graph [
     Latitude 35.781892183633666
   ]
   node [
-    id 35
-    label "ORNL1064"
-    Country "United States"
-    Longitude -83.67635010491514
-    Internal 1
-    Latitude 35.83535005665761
-  ]
-  node [
     id 36
     label "ORNL"
     Country "United States"
@@ -282,28 +250,12 @@ graph [
     Latitude 36.11985025905779
   ]
   node [
-    id 37
-    label "PHIL"
-    Country "United States"
-    Longitude -75.1620880421251
-    Internal 1
-    Latitude 39.95963699184358
-  ]
-  node [
     id 38
     label "PNNL"
     Country "United States"
     Longitude -119.27836102433503
     Internal 1
     Latitude 46.3483049813658
-  ]
-  node [
-    id 39
-    label "PNNLISB2"
-    Country "United States"
-    Longitude -119.27458606660366
-    Internal 1
-    Latitude 46.348853996023536
   ]
   node [
     id 40
@@ -341,9 +293,9 @@ graph [
     id 44
     label "SEAT"
     Country "United States"
-    Longitude -123.12077715061605
+    Longitude -122.334357
     Internal 1
-    Latitude 44.62018797174096
+    Latitude 47.605179
   ]
   node [
     id 45
@@ -370,14 +322,6 @@ graph [
     Latitude 37.679794994182885
   ]
   node [
-    id 48
-    label "SRS702A"
-    Country "United States"
-    Longitude -81.72394023276865
-    Internal 1
-    Latitude 33.55926539283246
-  ]
-  node [
     id 49
     label "SRS"
     Country "United States"
@@ -388,14 +332,6 @@ graph [
   node [
     id 50
     label "STAR"
-    Country "United States"
-    Longitude -87.61732667684555
-    Internal 1
-    Latitude 41.896175681613386
-  ]
-  node [
-    id 51
-    label "STAR-HUB"
     Country "United States"
     Longitude -87.61732667684555
     Internal 1
@@ -513,6 +449,14 @@ graph [
     Internal 1
     Latitude 39.670258
 ]
+  node [
+    id 67
+    label "INLEIL"
+    Country "United States"
+    Longitude -112.047622
+    Internal 1
+    Latitude 43.522761
+  ]
   edge [
     source 0
     target 12
@@ -557,13 +501,6 @@ graph [
   ]
   edge [
     source 4
-    target 30
-    start "ATLA"
-    end "NASH"
-    id e11
-  ]
-  edge [
-    source 4
     target 49
     start "ATLA"
     end "SRS"
@@ -578,24 +515,10 @@ graph [
   ]
   edge [
     source 5
-    target 6
-    start "BNL515"
-    end "BNL515B"
-    id e14
-  ]
-  edge [
-    source 5
     target 33
     start "BNL"
     end "NEWY32AOA"
     id e16
-  ]
-  edge [
-    source 6
-    target 33
-    start "BNL515B"
-    end "NEWY32AOA"
-    id e17
   ]
   edge [
     source 7
@@ -613,24 +536,10 @@ graph [
   ]
   edge [
     source 8
-    target 14
-    start "BOST"
-    end "EQXCH2"
-    id e20
-  ]
-  edge [
-    source 8
     target 32
     start "BOST"
     end "NEWY1118TH"
     id e21
-  ]
-  edge [
-    source 8
-    target 50
-    start "BOST"
-    end "STAR"
-    id e22
   ]
   edge [
     source 9
@@ -640,25 +549,11 @@ graph [
     id e23
   ]
   edge [
-    source 9
-    target 35
-    start "CHAT"
-    end "ORNL1064"
-    id e24
-  ]
-  edge [
     source 10
     target 14
     start "CHIC"
     end "EQXCH2"
     id e25
-  ]
-  edge [
-    source 10
-    target 19
-    start "CHIC"
-    end "FNALGCC"
-    id e27
   ]
   edge [
     source 10
@@ -680,13 +575,6 @@ graph [
     start "CHIC"
     end "STAR"
     id e30
-  ]
-  edge [
-    source 10
-    target 53
-    start "CHIC"
-    end "WASH"
-    id e31
   ]
   edge [
     source 12
@@ -774,13 +662,6 @@ graph [
   ]
   edge [
     source 18
-    target 19
-    start "FNALFCC"
-    end "FNALGCC"
-    id e44
-  ]
-  edge [
-    source 18
     target 50
     start "FNAL"
     end "STAR"
@@ -851,13 +732,6 @@ graph [
   ]
   edge [
     source 30
-    target 48
-    start "NASH"
-    end "SRS702A"
-    id e64
-  ]
-  edge [
-    source 30
     target 53
     start "NASH"
     end "WASH"
@@ -869,20 +743,6 @@ graph [
     start "NEWY1118TH"
     end "NEWY32AOA"
     id e66
-  ]
-  edge [
-    source 32
-    target 50
-    start "NEWY1118TH"
-    end "STAR"
-    id e67
-  ]
-  edge [
-    source 33
-    target 50
-    start "NEWY32AOA"
-    end "STAR"
-    id e69
   ]
   edge [
     source 33
@@ -897,13 +757,6 @@ graph [
     start "ORAU"
     end "ATLA"
     id e71
-  ]
-  edge [
-    source 38
-    target 39
-    start "PNNLEMSL"
-    end "PNNLISB2"
-    id e74
   ]
   edge [
     source 38
@@ -969,20 +822,6 @@ graph [
     id e84
   ]
   edge [
-    source 48
-    target 49
-    start "SRS702A"
-    end "SRS70344A"
-    id e85
-  ]
-  edge [
-    source 50
-    target 51
-    start "STAR"
-    end "STAR-HUB"
-    id e86
-  ]
-  edge [
     source 2
     target 44
     start "LIGO"
@@ -991,9 +830,9 @@ graph [
   ]
   edge [
     source 7
-    target 54
+    target 67
     start "BOIS"
-    end "INL"
+    end "INLEIL"
     id e88
   ]
   edge [
@@ -1059,7 +898,7 @@ graph [
     end "Y12"
     id e97
   ]
-  edge [
+ edge [
     source 8
     target 64
     start "BOST"
@@ -1086,5 +925,40 @@ graph [
     start "EQXDA3"
     end "PANTEX"
     id e102
+  ]
+  edge [
+    source 16
+    target 22
+    start "EQXDC4"
+    end "JLAB"
+    id e103
+  ]
+  edge [
+    source 9
+    target 36
+    start "CHAT"
+    end "ORNL"
+    id e104
+  ]
+  edge [
+    source 7
+    target 38
+    start "BOIS"
+    end "PNNL"
+    id e105
+  ]
+  edge [
+    source 42
+    target 67
+    start "SALT"
+    end "INLEIL"
+    id e107
+  ]
+  edge [
+    source 54
+    target 67
+    start "INL"
+    end "INLEIL"
+    id e108
   ]
 ]

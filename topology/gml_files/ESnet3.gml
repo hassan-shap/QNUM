@@ -202,14 +202,6 @@ graph [
     Latitude 750
   ]
   node [
-    id 27
-    label "SNLL"
-    Country "United States"
-    Longitude 405
-    Internal 1
-    Latitude 700
-  ]
-  node [
     id 28
     label "LLNL"
     Country "United States"
@@ -452,6 +444,14 @@ graph [
   node [
     id 65
     label "NETLMGN"
+    Country "United States"
+    Longitude 1080
+    Internal 1
+    Latitude 730
+]
+  node [
+    id 66
+    label "DAL"
     Country "United States"
     Longitude 1080
     Internal 1
@@ -743,13 +743,6 @@ graph [
     start "LBNL"
     end "SUNN"
     id e54
-  ]
-  edge [
-    source 27
-    target 41
-    start "SNLL"
-    end "SACR"
-    id e55
   ]
   edge [
     source 28
