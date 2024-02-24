@@ -6,17 +6,20 @@ from utils import *
 from joblib import Parallel, delayed
 # what are your inputs, and what operation do you want to
 # perform on each input. For example...
-num_cores = 12#multiprocessing.cpu_count()                                     
+num_cores = 80#multiprocessing.cpu_count()                                     
 
-n = 4 # number of segments (i.e., no. of repeaters -1 )
-Nm = 1e6
+Nm = 1e5
 F_link = 1 # fidelity of local BP
 mu_link = 1 # depolarizing noise channel parameter (1: no noise, 0: fully depolarized)
 
-τ_coh_list = np.logspace(-4.3,-2,10) # coherence time [sec]
-Le2e_list = np.linspace(50,400,4)
+n= 8
+τ_coh_list = np.logspace(-4,-2,50) # coherence time [sec]
+Le2e_list = np.linspace(50,400,80)
+## n= 4
+# τ_coh_list = np.logspace(-4.3,-2,50) # coherence time [sec]
+# Le2e_list = np.linspace(50,400,80)
 
-num_τ = 10
+num_τ = 200
 
 def runner(i_L):
 
