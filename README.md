@@ -1,6 +1,6 @@
 # QNUM: Resource Placement for Rate and Fidelity Maximization in Quantum Networks
 
-This repository contains the code and scripts developed for the project "Resource Placement for Rate and Fidelity Maximization in Quantum Networks," published in [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10607917). The project focuses on optimizing resource placement in quantum networks to maximize both rate and fidelity under given constraints.
+This repository contains the code and scripts developed for the project "Resource Placement for Rate and Fidelity Maximization in Quantum Networks," published in [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10607917). The project focuses on optimizing resource placement in quantum networks to maximize both rate and fidelity under given constraints. In conjunction with another [repository](https://github.com/pooryousefshahrooz/q_net_planning).
 
 ## Overview
 
