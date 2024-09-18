@@ -101,13 +101,12 @@ This will generate plots for rate and fidelity optimization across different net
 If you use this repository in your research, please cite the following paper:
 
 ```bibtex
-@inproceedings{hassan2024resource,
+@article{pouryousef2024resource,
   title={Resource Placement for Rate and Fidelity Maximization in Quantum Networks},
-  author={Hassan, Shap and others},
-  booktitle={IEEE International Conference on Communications (ICC)},
+  author={Pouryousef, Shahrooz and Shapourian, Hassan and Shabani, Alireza and Kompella, Ramana and Towsley, Don},
+  journal={IEEE Transactions on Quantum Engineering},
   year={2024},
-  pages={1--7},
-  doi={10.1109/ICC.2024.10607917}
+  publisher={IEEE}
 }
 ```
 
