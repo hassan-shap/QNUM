@@ -17,7 +17,7 @@ This repository includes:
 The code in this repository is based on the paper:
 
 **Resource Placement for Rate and Fidelity Maximization in Quantum Networks**  
-*IEEE International Conference on Communications (ICC) 2024*  
+*IEEE Transactions on Quantum Engineering*  
 [DOI: 10.1109/ICC.2024.10607917](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10607917)
 
 ### Abstract
